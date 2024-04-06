@@ -442,6 +442,10 @@ globalkeys = mytable.join(
     awful.key({ altkey, }, "w", function () if beautiful.weather then beautiful.weather.show(7) end end,
               {description = "show weather", group = "widgets"}),
 
+    -- Keybinding to toggle keyboard layout (Modkey + Shift + Space)
+    awful.key({ altkey, 'Shift'}, "space", function () toggle_keyboard_layout() end,
+    {description = "Toggle keyboard layout", group = "hotkeys"}),
+
     -- Screen brightness
     awful.key({ }, "XF86MonBrightnessUp", function () os.execute("xbacklight -inc 10") end,
               {description = "+10%", group = "hotkeys"}),
@@ -843,6 +847,19 @@ local function backham()
     if c then
         client.focus = c
         c:raise()
+    end
+end
+
+function toggle_keyboard_layout()
+    local handle = io.popen("setxkbmap -query | grep layout")
+    local result = handle:read("*a")
+    handle:close()
+    local layout = result:match("layout:     (%w+)")
+    
+    if layout == "us" then
+        os.execute("setxkbmap bg -variant phonetic")
+    else
+        os.execute("setxkbmap us")
     end
 end
 
