@@ -137,6 +137,13 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
+# mount disks
+alias disk1='udisksctl mount -b /dev/sda1'
+alias disk2='udisksctl mount -b /dev/sda2'
+
+# artisan
+alias pa='php artisan'
+
 # nala
 alias nala='sudo nala'
 
@@ -176,13 +183,14 @@ alias gaa='git add .'
 alias branch='git branch'
 alias gc='git checkout'
 alias gcm='git checkout main'
-alias commit='git commit -m'
+alias commit='git add . && git commit -m'
 alias fetch='git fetch'
 alias pull='git pull origin'
 alias push='git push'
 alias pusho='git push -u origin'
 alias tag='git tag'
 alias newtag='git tag -a'
+alias wip='commit wip'
 
 # Play audio files in current dir by type
 alias playwav='vlc *.wav'
