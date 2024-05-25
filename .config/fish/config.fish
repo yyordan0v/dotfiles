@@ -143,6 +143,8 @@ alias disk2='udisksctl mount -b /dev/sda2'
 
 # artisan
 alias pa='php artisan'
+alias pas='pa serve'
+alias mfs='pa migrate:fresh --seed'
 
 # nala
 alias nala='sudo nala'
@@ -190,7 +192,7 @@ alias push='git push'
 alias pusho='git push -u origin'
 alias tag='git tag'
 alias newtag='git tag -a'
-alias wip='commit wip'
+alias wip='commit wip && push'
 
 # Play audio files in current dir by type
 alias playwav='vlc *.wav'
