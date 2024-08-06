@@ -156,6 +156,9 @@ alias dolphin='dolphin.sh'
 #config dofiles
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+#obsidian notes
+alias notes='cd $HOME/Documents/Notes/Notes/'
+
 # vim
 alias vim='nvim'
 
