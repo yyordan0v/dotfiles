@@ -22,7 +22,6 @@ local lain          = require("lain")
 local freedesktop   = require("freedesktop")
 local hotkeys_popup = require("awful.hotkeys_popup")
                       require("awful.hotkeys_popup.keys")
-local screenshot    = require("screenshot")
 local mytable       = awful.util.table or gears.table -- 4.{0,1} compatibility
 
 
@@ -272,11 +271,6 @@ globalkeys = mytable.join(
     -- Destroy all notifications
     awful.key({ "Control",           }, "space", function() naughty.destroy_all_notifications() end,
               {description = "destroy all notifications", group = "hotkeys"}),
-
-    -- Take a screenshot
-    -- https://github.com/lcpz/dots/blob/master/bin/screenshot
-    awful.key({ altkey }, "p", function() os.execute("screenshot") end,
-              {description = "take a screenshot", group = "hotkeys"}),
 
     -- X screen locker
     awful.key({ altkey, "Control" }, "l", function () os.execute(scrlocker) end,
@@ -543,14 +537,17 @@ globalkeys = mytable.join(
               {description = "open Php Storm", group = "launcher"}),
 
     -- Screenshots.
-    awful.key({ }, "Print", scrot_full,
-        {description = "take a screenshot of entire screen", group = "screenshot"}),
-    awful.key({ modkey, "Shift" }, "s", scrot_selection,
-        {description = "take a screenshot of selection", group = "screenshot"}),
-    awful.key({ "Shift" }, "Print", scrot_window,
-        {description = "take a screenshot of focused window", group = "screenshot"}),
-    awful.key({ "Ctrl" }, "Print", scrot_delay,
-        {description = "take a screenshot of delay", group = "screenshot"}),
+    -- Full-screen screenshot: save to file and copy to clipboard
+    awful.key({}, "Print", function() 
+        awful.spawn.with_shell("flameshot full -c -p ~/Pictures/screenshots")
+    end,
+    {description = "take full-screen screenshot with Flameshot, save and copy to clipboard", group = "screenshot"}),
+
+    -- Area selection screenshot: copy to clipboard only
+    awful.key({ modkey, "Shift" }, "s", function() 
+        awful.spawn("flameshot gui --clipboard")
+    end,
+    {description = "take area screenshot with Flameshot and copy to clipboard", group = "screenshot"}),
 
 
 
