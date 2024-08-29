@@ -537,17 +537,29 @@ globalkeys = mytable.join(
               {description = "open Php Storm", group = "launcher"}),
 
     -- Screenshots.
-    -- Full-screen screenshot: save to file and copy to clipboard
+    -- Area screenshot
     awful.key({}, "Print", function() 
-        awful.spawn.with_shell("flameshot full -c -p ~/Pictures/screenshots")
+        awful.spawn("flameshot gui")
     end,
-    {description = "take full-screen screenshot with Flameshot, save and copy to clipboard", group = "screenshot"}),
+    {description = "take area screenshot", group = "screenshot"}),
 
     -- Area selection screenshot: copy to clipboard only
     awful.key({ modkey, "Shift" }, "s", function() 
         awful.spawn("flameshot gui --clipboard")
     end,
-    {description = "take area screenshot with Flameshot and copy to clipboard", group = "screenshot"}),
+    {description = "take area screenshot and copy to clipboard", group = "screenshot"}),
+
+    -- Full-screen screenshot: copy to clipboard only
+    awful.key({"Shift"}, "Print", function() 
+        awful.spawn("flameshot full --clipboard")
+    end,
+    {description = "take full-screen screenshot and copy to clipboard", group = "screenshot"}),
+
+    -- Full-screen screenshot: copy to clipboard and save
+    awful.key({modkey, "Shift"}, "Print", function() 
+        awful.spawn.with_shell("flameshot full -c -p ~/Pictures/screenshots")
+    end,    
+    {description = "take full-screen screenshot and copy to clipboard and save", group = "screenshot"}),    
 
 
 
