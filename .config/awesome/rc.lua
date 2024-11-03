@@ -563,11 +563,6 @@ globalkeys = mytable.join(
 
 
 
-    -- Default
-    --[[ Menubar
-    -- awful.key({ modkey }, "p", function() menubar.show() end,
-    --           {description = "show the menubar", group = "launcher"}),
-    --]]
     -- dmenu
     -- awful.key({ modkey, "Shift" }, "Return", function()
     --         os.execute(string.format("dmenu_run -i -fn 'Terminus' -nb '%s' -nf '%s' -sb '%s' -sf '%s'",
@@ -575,29 +570,11 @@ globalkeys = mytable.join(
     --     end,
     --     { description = "run dmenu", group = "launcher" }),
 
-    -- alternatively use rofi, a dmenu-like application with more features
-    -- check https://github.com/DaveDavenport/rofi for more details
     -- rofi
     awful.key({ modkey, "Shift" }, "Return", function()
-            os.execute(string.format("rofi -show drun"))
+            os.execute(string.format("rofi -show drun -show-icons"))
         end,
-        { description = "rofi drun", group = "launcher" }),
-
-    -- Prompt
-    awful.key({ modkey }, "r", function() awful.screen.focused().mypromptbox:run() end,
-        { description = "run prompt", group = "launcher" }),
-
-    awful.key({ modkey }, "x",
-        function()
-            awful.prompt.run {
-                prompt       = "Run Lua code: ",
-                textbox      = awful.screen.focused().mypromptbox.widget,
-                exe_callback = awful.util.eval,
-                history_path = awful.util.get_cache_dir() .. "/history_eval"
-            }
-        end,
-        { description = "lua execute prompt", group = "awesome" })
---]]
+        { description = "rofi drun", group = "launcher" })
 )
 
 clientkeys = mytable.join(
