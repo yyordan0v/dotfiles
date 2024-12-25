@@ -173,7 +173,6 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
 # tmuxinator
-alias tmux="tmux -2"  # Force 256 color support
 alias mux="tmuxinator"
 alias muxs="tmuxinator start"
 alias muxe="tmuxinator edit"
