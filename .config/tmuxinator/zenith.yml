@@ -1,5 +1,5 @@
-# ~/.config/tmuxinator/laravel.yml
-name: laravel
+# ~/.config/tmuxinator/zenith.yml
+name: zenith
 root: ~/code/zenith
 startup_window: terminal
 windows:
