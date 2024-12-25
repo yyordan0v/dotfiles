@@ -1,0 +1,34 @@
+# ~/.config/tmuxinator/laravel.yml
+name: laravel
+root: ~/code/zenith
+startup_window: terminal
+windows:
+  - server:
+      layout: tiled
+      panes:
+        - artisan:
+            - php artisan serve
+        - vite:
+            - npm run dev
+
+  - webhooks:
+      layout: even-horizontal
+      panes:
+        - stripe:
+            - stripe listen --forward-to localhost:8000/stripe/webhook
+        - ngrok:
+            - ngrok http 8000
+
+  - logs:
+      layout: main-vertical
+      panes:
+        - pail:
+            - php artisan pail
+
+  - terminal:
+      layout: even-horizontal
+      panes:
+        - git:
+            - git status
+        - database:
+            - php artisan tinker

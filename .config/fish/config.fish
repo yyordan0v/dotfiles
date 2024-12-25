@@ -8,21 +8,15 @@ set -U fish_user_paths $HOME/.bin  $HOME/.local/bin $HOME/.config/composer/vendo
 set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
 
-### SET MANPAGER
-### Uncomment only one of these!
-
-### "nvim" as manpager
-# set -x MANPAGER "nvim +Man!"
-
-### "less" as manpager
-# set -x MANPAGER "less"
-
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###
 function fish_user_key_bindings
   # fish_default_key_bindings
   fish_vi_key_bindings
 end
 ### END OF VI MODE ###
+
+# Set default editor
+set -gx EDITOR "zed --wait"
 
 ### AUTOCOMPLETE AND HIGHLIGHT COLORS ###
 set fish_color_normal brcyan
@@ -177,6 +171,12 @@ alias l.='lsd -a | egrep "^\."'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
+
+# tmuxinator
+alias tmux="tmux -2"  # Force 256 color support
+alias mux="tmuxinator"
+alias muxs="tmuxinator start"
+alias muxe="tmuxinator edit"
 
 # adding flags
 alias df='df -h'                          # human-readable sizes
