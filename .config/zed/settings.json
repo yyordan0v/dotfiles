@@ -39,5 +39,6 @@
     "mode": "system",
     "light": "One Light",
     "dark": "One Dark"
-  }
+  },
+  "format_on_save": "on"
 }
