@@ -25,6 +25,14 @@ windows:
         - pail:
             - php artisan pail
 
+  - workers:
+      layout: even-horizontal
+      panes:
+        - queues:
+            - php artisan queue:work
+        - scheduler:
+            - php artisan schedule:work
+
   - terminal:
       layout: even-horizontal
       panes:
