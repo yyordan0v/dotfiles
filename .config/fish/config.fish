@@ -225,3 +225,4 @@ alias mocp="bash -c mocp"
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
+set -gx PATH ~/.npm-global/bin $PATH

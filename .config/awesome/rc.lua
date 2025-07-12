@@ -110,7 +110,7 @@ local file_manager = "dolphin.sh"
 
 
 awful.util.terminal                    = terminal
-awful.util.tagnames                    = { "1", "2", "3", "4", "5" }
+awful.util.tagnames                    = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }
 awful.layout.layouts                   = {
     awful.layout.suit.tile,
 }
@@ -152,6 +152,10 @@ awful.util.tasklist_buttons            = mytable.join(
     awful.button({}, 4, function() awful.client.focus.byidx(1) end),
     awful.button({}, 5, function() awful.client.focus.byidx(-1) end)
 )
+
+os.execute("export XCURSOR_SIZE=24")
+os.execute("export QT_SCALE_FACTOR=1")
+os.execute("export GDK_SCALE=1")
 
 beautiful.init(string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), chosen_theme))
 
