@@ -1,0 +1,48 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="ideScale" value="1.25" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "SettingsSearchHistory": "zoom",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "evlsprt3.251": "7",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "251.26927.60",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "16.0",
+    "fontSizeToResetEditor": "16.0",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/void/code/zenith/public/images/brand/lotusmu-mark.svg",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "registry.to.advanced.settings.migration.build": "PS-251.26927.60",
+    "terminal.gen.one.option.visible": "false",
+    "ts.lib.d.ts.version": "5.7.3",
+    "whats.new.last.shown.version": "2025-1.3-26927-e27e63de7c21f807429b5bf3f7185bc801c52b66"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/void/code/zenith/public/images/brand/lotusmu-mark.svg",
+      "/home/void/code/zenith"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

@@ -1,0 +1,133 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateProjectToolWindow">
+      <i c="4" l="1752525225333" />
+    </e>
+    <e n="ChangesView.Revert">
+      <i c="1" l="1752513623463" />
+    </e>
+    <e n="CheckinProject">
+      <i c="1" l="1752513505218" />
+    </e>
+    <e n="CloseContent">
+      <i c="3" l="1752516622361" />
+    </e>
+    <e n="CloseProject">
+      <i c="1" l="1752513572819" />
+    </e>
+    <e n="CollapseAll">
+      <i c="8" l="1752525224544" />
+    </e>
+    <e n="CollapseRegion">
+      <i c="2" l="1752525227015" />
+    </e>
+    <e n="EditorCopy">
+      <i c="3" l="1752514109675" />
+    </e>
+    <e n="EditorDeleteToWordEnd">
+      <i c="3" l="1752514096094" />
+    </e>
+    <e n="EditorDown">
+      <i c="34" l="1752513950238" />
+    </e>
+    <e n="EditorTextEnd">
+      <i c="1" l="1752514097819" />
+    </e>
+    <e n="ExpandRecursively">
+      <i c="13" l="1752525224097" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="4" l="1752525226770" />
+    </e>
+    <e n="ExpressionTypeInfo">
+      <i c="4" l="1752514408075" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1752514105196" />
+    </e>
+    <e n="GotoFile">
+      <i c="8" l="1752514406549" />
+    </e>
+    <e n="ProjectViewExpandAll">
+      <i c="5" l="1752525160726" />
+    </e>
+    <e n="SaveAll">
+      <i c="3" l="1752525292566" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1752525229371" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="9" l="1752525220198" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="2" l="1752513619147" />
+    </e>
+    <e n="Vcs.Show.Shelf">
+      <i c="4" l="1752516602560" />
+    </e>
+    <e n="WelcomeScreen.ChangeProjectIcon">
+      <i c="1" l="1752516634343" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="2" l="1752513582918" />
+    </e>
+    <e n="WelcomeScreen.RemoveSelected">
+      <i c="1" l="1752513578937" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="1" l="1752471131050" />
+    </e>
+    <e n="ZoomInIdeAction">
+      <i c="7" l="1752525280408" />
+    </e>
+    <e n="ZoomOutIdeAction">
+      <i c="5" l="1752525282218" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="3" l="1752516654922" />
+    </e>
+    <e n="com.intellij.ide.actions.ToolWindowMoveAction">
+      <i c="1" l="1752512599615" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="1" l="1752525189268" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="9" l="1752516622313" />
+    </e>
+    <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
+      <i c="2" l="1752525263441" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="9" l="1752514407444" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="3" l="1752524864397" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1752513570746" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1752471127834" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.projectActions.ChangeProjectIcon">
+      <i c="1" l="1752516635862" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="3" l="1752514338283" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1752512594925" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="16" l="1752514375525" />
+    </e>
+    <e n="com.laravel_idea.plugin.LaravelActionChooser">
+      <i c="1" l="1752525227721" />
+    </e>
+    <e n="com.laravel_idea.plugin.extension.notifications.NotificationAction">
+      <i c="1" l="1752513603049" />
+    </e>
+  </component>
+</application>

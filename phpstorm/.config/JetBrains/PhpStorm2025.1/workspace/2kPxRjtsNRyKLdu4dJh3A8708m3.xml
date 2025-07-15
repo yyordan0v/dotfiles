@@ -1,0 +1,235 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="zenith" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="22u5m74dvjom3" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Actions/Banners/DismissBanner.php" preview="true">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"DismissBanner.php","foregroundColor":-2104859,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FONT_TYPE","value":"2"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    ".env file": {
+      "usageCount": 4,
+      "lastUsed": 1752516595435
+    },
+    "GitIgnore file": {
+      "usageCount": 1,
+      "lastUsed": 1752513512441
+    },
+    "PHP": {
+      "usageCount": 11,
+      "lastUsed": 1752525220717
+    },
+    "EditorConfig": {
+      "usageCount": 2,
+      "lastUsed": 1752513513131
+    },
+    "textmate": {
+      "usageCount": 1,
+      "lastUsed": 1752513513774
+    },
+    "JSON": {
+      "usageCount": 1,
+      "lastUsed": 1752513512060
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1752513511742
+    },
+    "WebPreview": {
+      "usageCount": 1,
+      "lastUsed": 1752512595963
+    },
+    "DIFF": {
+      "usageCount": 2,
+      "lastUsed": 1752516620081
+    },
+    "Log": {
+      "usageCount": 1,
+      "lastUsed": 1752514093813
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/void/code/zenith/app/Filament/Infolists/Components/Entry/CharacterClassEntry.php&quot;,
+    &quot;/home/void/code/zenith/storage/logs/laravel.log&quot;,
+    &quot;/home/void/code/zenith/app/Console/Commands/ProcessHallOfFameCommand.php&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="DotEnv">
+      <summary usageCount="4" lastUsage="1752516595437" />
+    </language>
+    <language id="EditorConfig">
+      <summary usageCount="2" lastUsage="1752513513131" />
+    </language>
+    <language id="GitIgnore">
+      <summary usageCount="1" lastUsage="1752513512441" />
+    </language>
+    <language id="JSON">
+      <summary usageCount="1" lastUsage="1752513512060" />
+    </language>
+    <language id="LOG">
+      <summary usageCount="1" lastUsage="1752514093813" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1752513511742" />
+    </language>
+    <language id="PHP">
+      <summary usageCount="11" lastUsage="1752525220718" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="1" lastUsage="1752513513774" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3245000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Pull Requests" />
+      <window_info id="Commit" order="0" weight="0.16264823" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="5" weight="0.16383399" />
+      <unified_weights left="0.16264823" right="0.16383399" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Commit</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1063" y="491" key="FileChooserDialogImpl" timestamp="1752516649543">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1063" y="491" key="FileChooserDialogImpl/0.0.2560.1440@0.0.2560.1440" timestamp="1752516649543" />
+    <state x="1090" y="474" key="RollbackChangesDialog" timestamp="1752513624679">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1090" y="474" key="RollbackChangesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1752513624679" />
+    <state x="784" y="370" key="SettingsEditor" timestamp="1752525276994">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="784" y="370" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1752525276994" />
+    <state x="943" y="349" width="672" height="696" key="search.everywhere.popup" timestamp="1752514407445">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="943" y="349" width="672" height="696" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1752514407445" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CLAUDE.md" preview="true" />
+    <entry file="file://$PROJECT_DIR$/package.json" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig" preview="true">
+      <provider selected="true" editor-type-id="org.editorconfig.configmanagement.editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="449">
+          <caret line="1917" column="29" lean-forward="true" selection-start-line="1917" selection-start-column="29" selection-end-line="1917" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ProcessWeeklyRankingsCommand.php" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ExtendPartnerVipCommand.php" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/DistributeCastleSiegePrizesCommand.php" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/ProcessHallOfFameCommand.php" preview="true">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/CleanupGuildMarksCommand.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Filament/Infolists/Components/Entry/CharacterClassEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Actions/Banners/DismissBanner.php" preview="true">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5581c38d-f894-4ea3-ac5b-506463d5e4eb" name="lotusmu.org" url="https://lotusmu.org">
+        <fileTransfer host="176.31.24.213" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="43cfa287-27ac-45c7-b29e-8e0676af684b" name="jobs-board">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="95af579e-09b0-40d4-89cf-a969d0676438" name="mumayhem.org" url="https://mumayhem.org">
+        <fileTransfer host="176.31.24.213" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
