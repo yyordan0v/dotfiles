@@ -55,6 +55,7 @@ end
 alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=down:75% | xargs -ro yay -S"
 
 ### LARAVEL/PHP DEVELOPMENT ###
+mise activate fish | source
 alias pa='php artisan'
 alias mfs='pa migrate:fresh --seed'
 
@@ -66,7 +67,7 @@ alias gcm='git checkout main'
 alias pull='git pull origin'
 alias push='git push'
 alias pusho='git push -u origin'
-alias wip='gcommit wip && push'
+alias wip='commit wip && push'
 
 ### FILE MANAGEMENT ###
 alias ls='eza -lh --group-directories-first --icons=auto'
