@@ -50,6 +50,7 @@
     "on-click-right": "alacritty -e calcurse",
   },
   "network": {
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
     "format": "{icon}",
     "format-wifi": "{icon}",
     "format-ethernet": "󰀂",
@@ -84,11 +85,11 @@
     "format-disabled": "󰂲",
     "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "blueberry",
+    "on-click": "GTK_THEME=Adwaita-dark blueberry",
   },
   "pulseaudio": {
     "format": "{icon}",
-    "on-click": "alacritty --class=Wiremix -e wiremix",
+    "on-click": "GTK_THEME=Adwaita-dark pavucontrol",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
