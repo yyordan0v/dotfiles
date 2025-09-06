@@ -1,0 +1,34 @@
+# ~/.config/tmuxinator/smilepoint.yml
+name: smilepoint
+root: ~/code/smilepoint
+startup_window: terminal
+windows:
+  - server:
+      layout: tiled
+      panes:
+        - artisan:
+            - php artisan serve
+        - vite:
+            - npm run dev
+
+  - logs:
+      layout: main-vertical
+      panes:
+        - pail:
+            - php artisan pail
+
+  - workers:
+      layout: even-horizontal
+      panes:
+        - queues:
+            - php artisan queue:work
+        - scheduler:
+            - php artisan schedule:work
+
+  - terminal:
+      layout: even-horizontal
+      panes:
+        - git:
+            - git status
+        - database:
+            - php artisan tinker
