@@ -1,0 +1,25 @@
+name: sell
+root: ~/code/sell
+startup_window: terminal
+windows:
+  - server:
+      layout: tiled
+      panes:
+        - sail:
+            - sudo systemctl stop mariadb && ./vendor/bin/sail up -d
+        - vite:
+            - sleep 10 && ./vendor/bin/sail npm run dev
+  - workers:
+      layout: even-horizontal
+      panes:
+        - queues:
+            - sleep 10 && ./vendor/bin/sail artisan queue:work
+        - scheduler:
+            - sleep 10 && ./vendor/bin/sail artisan schedule:work
+  - terminal:
+      layout: even-horizontal
+      panes:
+        - git:
+            - git status
+        - database:
+            - sleep 10 && ./vendor/bin/sail artisan tinker

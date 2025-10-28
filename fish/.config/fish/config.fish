@@ -58,6 +58,7 @@ alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=dow
 mise activate fish | source
 alias pa='php artisan'
 alias mfs='pa migrate:fresh --seed'
+alias sail='./vendor/bin/sail'
 
 ### GIT ALIASES ###
 alias gaa='git add .'
