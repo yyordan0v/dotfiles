@@ -62,7 +62,7 @@ alias sail='./vendor/bin/sail'
 
 ### GIT ALIASES ###
 alias gaa='git add .'
-alias commit='git add . && git commit -m'
+alias commit='git commit -m'
 alias gc='git checkout'
 alias gcm='git checkout main'
 alias pull='git pull origin'
