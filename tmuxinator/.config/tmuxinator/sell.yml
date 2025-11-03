@@ -6,7 +6,7 @@ windows:
       layout: tiled
       panes:
         - sail:
-            - sudo systemctl stop mariadb && ./vendor/bin/sail up -d
+            - sudo systemctl st
         - vite:
             - sleep 10 && ./vendor/bin/sail npm run dev
   - workers:
@@ -23,3 +23,7 @@ windows:
             - git status
         - database:
             - sleep 10 && ./vendor/bin/sail artisan tinker
+  - webhooks:
+      panes:
+        - stripe:
+            - stripe listen --api-key sk_test --forward-to localhost/stripe/webhook
