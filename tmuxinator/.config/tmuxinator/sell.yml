@@ -6,7 +6,7 @@ windows:
       layout: tiled
       panes:
         - sail:
-            - sudo systemctl st
+            - ./vendor/bin/sail up -d
         - vite:
             - sleep 10 && ./vendor/bin/sail npm run dev
   - workers:
