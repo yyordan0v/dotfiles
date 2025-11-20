@@ -24,6 +24,9 @@ windows:
         - database:
             - sleep 10 && ./vendor/bin/sail artisan tinker
   - webhooks:
+      layout: even-horizontal
       panes:
         - stripe:
             - stripe listen --api-key sk_test --forward-to localhost/stripe/webhook
+        - ngrok:
+            - ngrok http 80
