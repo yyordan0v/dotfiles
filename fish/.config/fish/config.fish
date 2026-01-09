@@ -60,6 +60,26 @@ alias pa='php artisan'
 alias mfs='pa migrate:fresh --seed'
 alias sail='./vendor/bin/sail'
 
+# ================================
+# Laravel Testing Commands
+# ================================
+# pat          - parallel tests (4 workers)
+# pat coverage - coverage report (serial, slower)
+# pat fresh    - recreate DBs (after migrations)
+# pats         - serial tests
+# ================================
+
+function pat
+    switch $argv[1]
+        case coverage
+            php -d memory_limit=2G artisan test $argv[2..-1] --coverage
+        case fresh
+            php -d memory_limit=2G artisan test --parallel --processes=4 --recreate-databases $argv[2..-1]
+        case '*'
+            php -d memory_limit=2G artisan test --parallel --processes=4 $argv
+    end
+end
+
 ### GIT ALIASES ###
 alias gaa='git add .'
 alias commit='git commit -m'
