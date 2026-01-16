@@ -1,4 +1,0 @@
-# This file contains fish universal variable definitions.
-# VERSION: 3.0
-SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/home/void/\x2ebin\x1e/home/void/\x2elocal/bin\x1e/home/void/\x2econfig/composer/vendor/bin\x1e/home/void/Applications\x1e/var/lib/flatpak/exports/bin/\x1e/home/void/\x2enpm\x2dglobal/bin
