@@ -27,6 +27,6 @@ windows:
       layout: even-horizontal
       panes:
         - stripe:
-            - stripe listen --api-key sk_test --forward-to localhost/stripe/webhook
+            - stripe listen --api-key sk_test --forward-to localhost/stripe/webhook-connect
         - ngrok:
             - ngrok http 80
