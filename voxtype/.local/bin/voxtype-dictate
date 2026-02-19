@@ -1,0 +1,35 @@
+#!/bin/bash
+# Wrapper for voxtype dictation that handles fcitx5 layout switching.
+# On start: saves current IM, switches to English, starts recording.
+# On stop: stops recording, waits for transcription to finish, restores IM.
+
+STATE_FILE="${XDG_RUNTIME_DIR}/voxtype/state"
+SAVED_IM_FILE="${XDG_RUNTIME_DIR}/voxtype/saved_im"
+
+case "$1" in
+  start)
+    # Save current input method and switch to English
+    fcitx5-remote -n > "$SAVED_IM_FILE"
+    fcitx5-remote -s keyboard-us
+    sleep 0.05
+    voxtype record start
+    ;;
+  stop)
+    voxtype record stop
+    # Wait for transcription to finish (state goes back to idle)
+    for i in $(seq 1 100); do
+      sleep 0.1
+      [ "$(cat "$STATE_FILE" 2>/dev/null)" = "idle" ] && break
+    done
+    # Wait for wtype to finish typing
+    while pgrep -x wtype > /dev/null 2>&1; do
+      sleep 0.1
+    done
+    sleep 0.1
+    # Restore previous input method
+    if [ -f "$SAVED_IM_FILE" ]; then
+      fcitx5-remote -s "$(cat "$SAVED_IM_FILE")"
+      rm -f "$SAVED_IM_FILE"
+    fi
+    ;;
+esac

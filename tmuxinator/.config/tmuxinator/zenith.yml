@@ -2,6 +2,8 @@
 name: zenith
 root: ~/code/zenith
 startup_window: terminal
+on_project_start: sudo systemctl start mssql-server
+on_project_stop: sudo systemctl stop mssql-server
 windows:
   - server:
       layout: tiled
