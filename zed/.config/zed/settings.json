@@ -35,7 +35,7 @@
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Catppuccin Latte - No Italics",
     "dark": "Matte Black",
   },
   "format_on_save": "on",
