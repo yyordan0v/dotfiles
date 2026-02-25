@@ -1,0 +1,10 @@
+providers:
+    azure:
+    type: openai
+    baseUrl: https://tech-mapqw640-eastus2.openai.azure.com/openai/v1
+    apiKeyEnv: OPENAI_API_KEY
+
+models:
+    codex:
+    provider: azure
+    model: gpt-5.3-codex

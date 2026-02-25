@@ -1,0 +1,16 @@
+model = "gpt-5.3-codex"  # Replace with your actual Azure model deployment name
+model_provider = "azure"
+model_reasoning_effort = "xhigh"
+personality = "pragmatic"
+
+[model_providers.azure]
+name = "Azure OpenAI"
+base_url = "https://tech-mapqw640-eastus2.openai.azure.com/openai/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"
+
+[projects."/home/void/code/sell"]
+trust_level = "trusted"
+
+[projects."/home/void"]
+trust_level = "trusted"
