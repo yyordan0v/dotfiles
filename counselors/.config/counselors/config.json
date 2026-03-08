@@ -59,6 +59,6 @@
     "default": ["claude-opus", "codex-5.3-xhigh", "codex-5.3-high"],
     "quick": ["claude-opus", "codex-5.3-high"],
     "deep": ["claude-opus", "codex-5.3-xhigh", "codex-5.3-xhigh"],
-    "claude": ["claude-opus", "claude-opus", "claude-sonnet", "claude-haiku"]
+    "claude": ["claude-opus", "claude-opus", "claude-sonnet"]
   }
 }

@@ -1,6 +1,8 @@
 name: sell
 root: ~/code/sell
 startup_window: terminal
+on_project_start: sudo systemctl stop mariadb
+on_project_stop: sudo systemctl start mariadb
 windows:
   - server:
       layout: tiled

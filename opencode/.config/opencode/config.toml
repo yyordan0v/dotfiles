@@ -7,4 +7,4 @@ providers:
 models:
     codex:
     provider: azure
-    model: gpt-5.3-codex
+    model: gpt-5.4

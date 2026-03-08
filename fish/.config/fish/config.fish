@@ -144,7 +144,7 @@ end
 
 ### LAUNCH HYPRLAND ###
 if status is-login; and test (tty) = /dev/tty1
-    exec hyprland
+    exec start-hyprland
 end
 
 ### INIT ZOXIDE ###
