@@ -5,6 +5,7 @@ set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/.config/composer/vendor
 ### ENVIRONMENT ###
 set fish_greeting                    # Suppress fish's intro message
 set TERM "xterm-256color"           # Terminal type
+set -gx ENABLE_LSP_TOOL true        # Enable LSP tool for Claude Code
 
 ### KEY BINDINGS ###
 function fish_user_key_bindings

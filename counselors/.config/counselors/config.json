@@ -24,14 +24,6 @@
       },
       "extraFlags": ["--model", "sonnet"]
     },
-    "claude-haiku": {
-      "binary": "/home/void/.local/bin/claude",
-      "adapter": "claude",
-      "readOnly": {
-        "level": "enforced"
-      },
-      "extraFlags": ["--model", "haiku"]
-    },
     "codex-5.3-xhigh": {
       "binary": "/usr/bin/codex",
       "adapter": "codex",
@@ -53,12 +45,33 @@
         "level": "enforced"
       },
       "extraFlags": ["-m", "gpt-5.3-codex", "-c", "model_reasoning_effort=high"]
+    },
+    "gpt-5.4-xhigh": {
+      "binary": "/usr/bin/codex",
+      "adapter": "codex",
+      "readOnly": {
+        "level": "enforced"
+      },
+      "extraFlags": ["-m", "gpt-5.4", "-c", "model_reasoning_effort=xhigh"],
+      "timeout": 900
+    },
+    "gpt-5.4-high": {
+      "binary": "/usr/bin/codex",
+      "adapter": "codex",
+      "readOnly": {
+        "level": "enforced"
+      },
+      "extraFlags": ["-m", "gpt-5.4", "-c", "model_reasoning_effort=high"]
     }
   },
   "groups": {
-    "default": ["claude-opus", "codex-5.3-xhigh", "codex-5.3-high"],
-    "quick": ["claude-opus", "codex-5.3-high"],
-    "deep": ["claude-opus", "codex-5.3-xhigh", "codex-5.3-xhigh"],
+    "default": ["claude-opus", "codex-5.3-xhigh", "gpt-5.4-xhigh"],
+    "codex": [
+      "codex-5.3-xhigh",
+      "gpt-5.4-xhigh",
+      "codex-5.3-high",
+      "gpt-5.4-high"
+    ],
     "claude": ["claude-opus", "claude-opus", "claude-sonnet"]
   }
 }

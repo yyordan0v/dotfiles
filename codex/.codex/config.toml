@@ -14,3 +14,6 @@ trust_level = "trusted"
 
 [projects."/home/void"]
 trust_level = "trusted"
+
+[projects."/home/void/dotfiles"]
+trust_level = "trusted"

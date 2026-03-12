@@ -10,7 +10,8 @@ windows:
         - sail:
             - ./vendor/bin/sail up -d
         - vite:
-            - sleep 10 && ./vendor/bin/sail npm run dev
+            # - sleep 10 && ./vendor/bin/sail npm run dev
+            - sleep 10 && ./vendor/bin/sail npm run build && cloudflared tunnel run sell-dev
   - workers:
       layout: even-horizontal
       panes:
